@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lexend:wght@500&family=Marck+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.customMain {
+    margin-top: 60px;
+    padding: 1rem;
+    min-height: 100vh;
+    flex: 1 1 auto;
+}
+
+.customNav {
+    z-index: 99;
+    position: fixed;
+    height: 60px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #044156;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+.lastPartHeader {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 40px;
+}
+
+.customNav a {
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.customNav a:hover {
+    color: #000;
+}
+
+.hello,
+.clickJourney {
+    text-align: center;
+    font-size: 2.3em;
+    color: #fff;
+}
+
+.clickJourney {
+    font-family: 'Marck Script', cursive;
+    font-size: 25.8px;
+}
+
+.createdBy {
+    text-align: left;
+}
+
+.container img {
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 65vw;
+    border-radius: 15px;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 -30px 0;
+}
+
+.textIndex {
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.textFirst span,
+.textSecond span,
+.textThird span {
+    font-weight: 600;
+}
+
+.hello {
+    position: relative;
+    top: 130px;
+}
+
+.clickJourney {
+    position: relative;
+    top: 115px;
+}
+
+.accordionGroup {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    max-width: 800px;
+    display: grid;
+    margin: 0 auto;
+}
+
+.authorText {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.authorTextSpan {
+    font-weight: 600;
+}
+
+.footer {
+    padding: 10px 20px;
+    margin: 0 -14px;
+    display: grid;
+    background-color: #044156;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.aboutPageWrap {
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.cursiveText {
+    font-family: 'Marck Script', cursive;
+    font-size: 26px;
+}
+
+.bigText {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lpnuWrapper {
+    padding-bottom: 30px;
+}
+
+.wrapperLogoIn {
+    padding: 5px;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #1b648a;
+}
+
+.wrapperLogo {
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 2px solid #1b648a;
+}
+
+.wrapperLogo img {
+    height: 20px;
+    width: 20px;
+}
+
+.wrapperLogo:hover {
+    background-color: #18a5ef;
+}
+
+.dated {
+    color: #fff;
+}
+
+.wrapperLogoLpnu {
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 15px 10px 10px rgba(196, 196, 196, 0.7) !important;
+}
+
+.wrapperLogoLpnu img {
+    border-radius: 25px;
+    width: 288px !important;
+}
+
+.wrapperLogoLpnu:hover {
+    position: relative;
+    top: 2px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.textBarbersFirst,
+.textBarbers {
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+}
+
+.textBarbersFirst {
+    font-size: 36px;
+}
+
+.textBarbers {
+    color: #044156 !important;
+    font-size: 26px;
+}
+
+.pic img {
+    width: 100% !important;
+    border-radius: 0 !important;
+}
+
+.pic {
+    padding: 0 20px;
+}
+
+.chefs {
+    margin: 80px -30px -20px;
+    padding: 0 5em 40px;
+    position: relative;
+}
+
+.chefs::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 9;
+}
+
+.textBarbers {
+    color: #fff;
+}
+
+.chefs .container {
+    position: relative;
+    z-index: 10;
+}
+
+.chefs .member {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.chefs .member .pic {
+    overflow: hidden;
+}
+
+.chefs .member .memberInfo {
+    margin: 0 20px;
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+    right: 20px;
+    background: #fff;
+    padding: 0 20px;
+    color: #433f39;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.chefs .member h4 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #6c665c;
+    position: relative;
+    padding-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.chefs .member h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #ffcf88;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.chefs .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+.chefs .member {
+    margin-top: 15px;
+}
+
+.social {
+    margin: 15px 0;
+}
+
+.chefs .member .social a {
+    transition: color 0.3s;
+    color: #7a7368;
+}
+
+.chefs .member .social a:hover {
+    color: #ffb03b;
+}
+
+.chefs .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+@media (min-width: 1024px) {
+    .chefs {
+        background-attachment: fixed;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .chefs .member {
+        margin-bottom: 110px;
+    }
+}
+
+@media (max-width: 925px) {
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .thirdInstructor {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media (max-width: 720px) {
+    .row {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .thirdInstructor {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
+
+@media (max-width: 595px) {
+    .customNav a {
+        font-size: 20px;
+    }
+
+    .customNav {
+        padding: 0 2rem;
+    }
+
+    @media (max-width: 595px) {
+        .customNav a {
+            font-size: 20px;
+        }
+
+        .customNav {
+            padding: 0 2rem;
+        }
+
+        .chefs {
+            padding: 0 2em 40px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .customNav a {
+        font-size: 18px;
+    }
+
+    .customNav {
+        padding: 0 1rem;
+    }
+}
